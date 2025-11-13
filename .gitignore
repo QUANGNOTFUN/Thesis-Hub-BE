@@ -1,0 +1,87 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables / secrets
+.env
+.env.*
+.env.local
+.envrc
+secrets.json
+local_settings.py
+instance/
+
+# IntelliJ / PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and runtime files
+*.log
+logs/
+tmp/
+*.pid
+*.sock
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage/
+
+# Type checkers and caches
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Distribution / build
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+wheels/
+*.egg
+*.whl
+*.spec
+
+# Packaging
+*.manifest
+*.spec
+
+# Databases
+*.sqlite3
+*.db
+*.sqlite
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Node (if frontend present)
+node_modules/
+
+# Misc
+*.pyc
+*.pyo
+*.pyd
+
