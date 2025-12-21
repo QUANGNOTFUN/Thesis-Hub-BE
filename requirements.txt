@@ -1,13 +1,37 @@
-fastapi
-uvicorn[standard]
-sqlalchemy
-psycopg2-binary
-pydantic
+# Core
+fastapi[standard]>=0.110
+uvicorn[standard]>=0.29
+
+# Database
+sqlalchemy>=2.0
+sqlmodel>=0.0.16
+asyncpg>=0.29
+uuid7
+
+# Config
+pydantic-settings>=2.0
 python-dotenv
-alembic
-passlib[bcrypt]
+
+# Auth
 python-jose[cryptography]
+passlib[bcrypt]
 python-multipart
+argon2-cffi
+
+# Migration
+alembic
+
+#Prettify
+black
+isort
+ruff
+mypy
+
+# Testing
 pytest
-httpx
 pytest-asyncio
+httpx
+pytest-cov
+
+# Validation
+email-validator
